@@ -23,14 +23,14 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <!--Particles JS-->
-    <script src="./js/particles.min.js"></script>
+    <!--Anime JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
 
     <!--My custom Javascript-->
     <script src="./js/custom-js.js"></script>
 </head>
 
-<body class="rain front-row" onload="makeItRain()">
+<body onload="makeItRain()">
     <div class="flex-container">
         <a href="./software/index.html" onmouseover="changeBackground('software')"
             onmouseout="changeBackground('default')">
@@ -50,6 +50,8 @@
             </div>
         </a>
     </div>
+
+    <div class="animations rain front-row"></div>
 </body>
 
 </html>

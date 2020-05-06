@@ -1,9 +1,10 @@
 function changeBackground(skill) {
     var backgroundColor;
     var body = document.body.style;
+    $('.animations').empty();
     switch (skill) {
         case "software":
-            makeItRain();
+            backgroundColor = "#FFF";
             break;
         case "photography":
             backgroundColor = "#FF0";
@@ -12,18 +13,17 @@ function changeBackground(skill) {
             backgroundColor = "#0000FF";
             break;
         case "default":
-            backgroundColor = "#555555";
+            makeItRain();
             break;
         default:
-            backgroundColor = "#555555";
+            makeItRain();
     }
     body.background = backgroundColor;
 }
 
 var makeItRain = function () {
 
-    //clear out everything
-    //$('.rain').empty();
+    document.body.style.background = "#222222";
 
     var increment = 0;
     var drops = "";
@@ -49,5 +49,3 @@ var makeItRain = function () {
 
     $('.rain.front-row').append(drops);
 }
-
-makeItRain();
