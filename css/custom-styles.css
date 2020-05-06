@@ -8,7 +8,6 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 100px;
-  overflow: hidden;
 }
 
 .flex-container>a>div {
@@ -34,17 +33,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 /*------------------RAIN CSS-------------------*/
-
-.rain {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
 
 .drop {
   position: absolute;
@@ -98,7 +90,6 @@ body {
   opacity: 1;
   transform: scale(0);
   animation: splat 0.5s linear infinite;
-  display: none;
 }
 
 body.splat-toggle .splat {
