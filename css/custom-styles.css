@@ -114,13 +114,3 @@ body.splat-toggle .splat {
     transform: scale(1.5);
   }
 }
-
-.el {
-  position: absolute;
-  opacity: 1;
-  width: 2px;
-  height: 24vh;
-  margin-top: -12vh;
-  transform-origin: 50% 100%;
-  background: white;
-}
