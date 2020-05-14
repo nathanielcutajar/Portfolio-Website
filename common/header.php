@@ -7,6 +7,7 @@ echo "<meta charset=\"utf-8\">
 <meta name=\"robots\" content=\"index, nofollow\">
 <link rel=\"canonical\" href=\"https://www.nathanielcutajar.com\">
 <base ref=\"https://www.nathanielcutajar.com/\" target=\"_blank\">
+<link rel=\"shortcut icon\" href=\"./favicon/favicon.ico\">
 
 <!-- Latest compiled and minified CSS -->
 <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\">

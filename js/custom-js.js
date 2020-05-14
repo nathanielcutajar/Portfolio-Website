@@ -1,3 +1,6 @@
+//Global Variables
+var mainBackgroundColor = "#222222";
+
 function changeBackground(skill) {
     var backgroundColor;
     var body = document.body.style;
@@ -30,9 +33,9 @@ function changeBackground(skill) {
     body.background = backgroundColor;
 }
 
-function makeItRain () {
+function makeItRain() {
 
-    document.body.style.background = "#222222";
+    document.body.style.background = mainBackgroundColor;
 
     var increment = 0;
     var drops = "";
