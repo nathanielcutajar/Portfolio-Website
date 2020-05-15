@@ -7,8 +7,8 @@
     <title>Photography</title>
 </head>
 
-<body>
-    <div class="flex-container">
+<body id="photographyBody">
+    <div>
         PHOTOGRAPHY PAGE UNDER DEVELOPMENT
     </div>
 </body>

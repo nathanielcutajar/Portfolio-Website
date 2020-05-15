@@ -7,7 +7,7 @@ echo "<meta charset=\"utf-8\">
 <meta name=\"robots\" content=\"index, nofollow\">
 <link rel=\"canonical\" href=\"https://www.nathanielcutajar.com\">
 <base ref=\"https://www.nathanielcutajar.com/\" target=\"_blank\">
-<link rel=\"shortcut icon\" href=\"./favicon/favicon.ico\">
+<link rel=\"shortcut icon\" href=\"../favicon/favicon.ico\">
 
 <!-- Latest compiled and minified CSS -->
 <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\">
@@ -16,7 +16,10 @@ echo "<meta charset=\"utf-8\">
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css\">
 
 <!--My custom styles-->
-<link rel=\"stylesheet\" href=\"./css/custom-styles.css\">
+<link rel=\"stylesheet\" href=\"../css/custom-styles.css\">
+
+<!--Reset styles-->
+<link rel=\"stylesheet\" href=\"../css/reset.css\">
 
 <!-- jQuery library -->
 <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
@@ -31,5 +34,5 @@ echo "<meta charset=\"utf-8\">
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js\"></script>
 
 <!--My custom Javascript-->
-<script src=\"./js/custom-js.js\"></script>"
+<script src=\"../js/custom-js.js\"></script>"
 ?>

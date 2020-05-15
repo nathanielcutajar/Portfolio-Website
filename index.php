@@ -7,7 +7,7 @@
     <title>Nathaniel Cutajar</title>
 </head>
 
-<body onload="makeItRain()">
+<body id="mainBody" onload="makeItRain()">
     <div class="flex-container">
         <a href="./software/index.php" target="_self" onmouseover="changeBackground('software')"
             onmouseout="changeBackground('default')">

@@ -1,0 +1,138 @@
+#mainBody{
+    background-color: rgb(85, 85, 85);
+
+    .flex-container {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flex-container>a>div {
+        width: 250px;
+        height: 600px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      .flex-container>a {
+        transition: all .25s ease-in-out;
+      }
+      
+      .flex-container>a:hover {
+        transform: scale(1.1);
+      }
+      
+      .animations{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+     /*------------------RAIN CSS-------------------*/
+
+      .drop {
+        position: absolute;
+        bottom: 100%;
+        width: 15px;
+        height: 120px;
+        pointer-events: none;
+        animation: drop 0.5s linear infinite;
+      }
+
+      .stem {
+        width: 1px;
+        height: 60%;
+        margin-left: 7px;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
+        animation: stem 0.5s linear infinite;
+      }
+
+      .splat {
+        width: 15px;
+        height: 10px;
+        border-top: 2px dotted rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        opacity: 1;
+        transform: scale(0);
+        animation: splat 0.5s linear infinite;
+      }
+      
+      .splat-toggle{
+        .splat {
+            display: block;
+          }
+      }
+
+      .el {
+        position: absolute;
+        opacity: 1;
+        width: 2px;
+        height: 24vh;
+        margin-top: -12vh;
+        transform-origin: 50% 100%;
+        background: white;
+      }
+  }
+  
+  /*------------------RAIN CSS-------------------*/
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(0vh);
+    }
+    75% {
+      transform: translateY(90vh);
+    }
+    100% {
+      transform: translateY(90vh);
+    }
+  }
+
+  
+  @keyframes stem {
+    0% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  
+  @keyframes splat {
+    0% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    80% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    90% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+  
+  #photographyBody{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: goldenrod;
+  }
