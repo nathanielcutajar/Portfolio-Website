@@ -8,17 +8,18 @@
 </head>
 
 <body id="photoBody">
+    <!--TODO add in common-->
     <div class="topnav">
         <a href="../index.php">
             <i class="fas fa-home"></i>
         </a>
-        <a class="active" href="#">Projects</a>
+        <a class="active" href="/photography/index.php">Projects</a>
         <a href="#">Studio</a>
         <a href="#">Contact</a>
     </div>
     <div id="photoTitle">Title</div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <a href="#">

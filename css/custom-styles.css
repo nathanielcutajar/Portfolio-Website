@@ -4,8 +4,10 @@
    transition: all .25s ease-in-out;
  }
 
- #mainBody, #photoBody {
-   background-color: rgb(85, 85, 85);
+ /*========================HOME PAGE=========================*/
+
+ #mainBody {
+   background-color: #222222;
  }
 
  #mainBody .flex-container {
@@ -126,6 +128,12 @@
    background: white;
  }
 
+ /*=========================PHOTOGRAPHY INDEX=================================*/
+
+ #photoBody {
+   background-color: #222222;
+ }
+
  /* Add a black background color to the top navigation */
 
  #photoBody .topnav {
@@ -167,9 +175,10 @@
  }
 
  .img-wrap {
-   width: 400px;
+   max-width: 450px;
    height: auto;
    position: relative;
+   margin: auto;
  }
 
  .img-wrap>img {
@@ -204,4 +213,8 @@
    color: #CCCCCC;
    z-index: 10;
    opacity: 0%;
+ }
+
+ .col{
+   padding: 0px;
  }
