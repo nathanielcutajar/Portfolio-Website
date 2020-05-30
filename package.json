@@ -1,30 +1,37 @@
 {
-  "name": "portfoliowebsite",
+  "name": "portfolio-website",
   "version": "1.0.0",
   "description": "Nathaniel Cutajar portfolio website",
   "main": "main-control.js",
+  "private": true,
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "chalk": "^4.0.0",
+    "express": "^4.17.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "sass": "^1.26.5"
   },
   "devDependencies": {
-    "grunt": "^1.1.0",
-    "grunt-concurrent": "^3.0.0",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-htmlmin": "^3.1.0",
-    "grunt-contrib-imagemin": "^4.0.0",
-    "grunt-contrib-jshint": "^2.1.0",
-    "grunt-contrib-sass": "^0.7.3",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-notify": "^0.4.5",
-    "grunt-svgmin": "^6.0.0"
+    "grunt": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-htmlmin": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-notify": "latest",
+    "grunt-svgmin": "latest"
   },
   "scripts": {
     "test": "mocha"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   },
   "repository": {
     "type": "git",
@@ -34,7 +41,11 @@
     "portfolio",
     "website"
   ],
-  "author": "Nathaniel Cutajar",
+  "author": {
+    "name": "Nathaniel Cutajar",
+    "email": "nathanielcutajar@outlook.com",
+    "url": "https://nathanielcutajar.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nathanielcutajar/Portfolio-Website/issues"
