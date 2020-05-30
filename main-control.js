@@ -1,7 +1,8 @@
 const http = require('http');
 const fs = require('fs');
 const chalk = require('chalk');
-const express = require ('express');
+const express = require('express');
+const path = require('path');
 const app = express();
 app.use(express.static('images'));
 app.use(express.static('js'));
@@ -18,18 +19,9 @@ if (portArg != null) {
     port = TryParseInt(portArg, defaultPort);
 }
 
-const server = http.createServer((req, res) => {
-    fs.readFile('index.html', function (err, data) {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'text/html');
-        res.write(data);
-        res.end();
-    })
-});
+app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/index.html')))
 
-server.listen(port, hostname, () => {
-    console.log(`Portfolio website server running at http://${hostname}:${port}/`);
-});
+app.listen(port, () => console.log(`Portfolio website running on http://localhost:${port}`))
 
 //Graceful shutdown
 process.on('SIGTERM', () => {
