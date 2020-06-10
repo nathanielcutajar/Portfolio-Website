@@ -1,0 +1,8 @@
+@import 'home';
+@import 'photography';
+@import 'reset';
+ 
+ /*Setting all transitions to have 1/4 second ease in and out*/
+ * {
+    transition: all .25s ease-in-out;
+ }

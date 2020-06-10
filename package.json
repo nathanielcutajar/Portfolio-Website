@@ -10,12 +10,10 @@
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "path": "^0.12.7",
-    "popper.js": "^1.16.1",
-    "sass": "^1.26.5"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "grunt": "latest",
-    "grunt-concurrent": "latest",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-cssmin": "latest",
     "grunt-contrib-htmlmin": "latest",
@@ -24,8 +22,8 @@
     "grunt-contrib-sass": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-notify": "latest",
-    "grunt-svgmin": "latest"
+    "grunt-image": "latest",
+    "grunt-notify": "latest"
   },
   "scripts": {
     "test": "mocha"
