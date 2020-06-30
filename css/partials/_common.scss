@@ -1,0 +1,6 @@
+@import '../variables';
+
+/*Setting all transitions to have 1/4 second ease in and out*/
+ * {
+    transition: all .25s ease-in-out;
+ }

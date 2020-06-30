@@ -1,3 +1,5 @@
+@import '../variables';
+
 #photoBody {
     background-color: #222222;
 
@@ -27,11 +29,12 @@
   }  
  
   #photoTitle {
-    color: rgb(92, 18, 18);
+    color: $main_color3;
     font-size: 60px;
     text-align: center;
     padding: 100px;
-    background-color: rgb(99, 99, 64);
+    background-color: $main_color5;
+    font-family: $main_font1;
   }
  
   .img-wrap {
@@ -70,7 +73,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #CCCCCC;
+    color: $main_color3;
     z-index: 10;
     opacity: 0%;
   }

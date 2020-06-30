@@ -1,8 +1,6 @@
-@import 'home';
-@import 'photography';
-@import 'reset';
- 
- /*Setting all transitions to have 1/4 second ease in and out*/
- * {
-    transition: all .25s ease-in-out;
- }
+@import 'partials/reset';
+@import 'partials/common';
+@import 'partials/home';
+@import 'partials/photography';
+@import 'partials/software';
+@import 'partials/music';
